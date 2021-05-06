@@ -1,0 +1,13 @@
+body {
+  /* background-image: url(https://i.imgur.com/FWHIFUU.jpeg);
+  background-size: cover; */
+  background-color: #E1CCCF;
+}
+
+.navbar{
+  background-color: lightcoral;
+}
+
+.navbar .navbar-nav .nav-link {
+  background: lavender;
+}

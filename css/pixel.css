@@ -3729,6 +3729,7 @@ button.section-black:focus {
  .card-secondary .card-header {
      background: #008081;
      color: white;
+     width: -webkit-fill-available;
  }
 
  .card-tertiary .card-header {
