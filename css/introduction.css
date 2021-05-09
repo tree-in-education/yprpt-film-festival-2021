@@ -1,28 +1,37 @@
-.nextFilm {
-    padding: 100px;
-    background-color: #006992;
-}
-
-.nextFilm a {
-  width: 20rem;
-  height: 5rem;
-  font-size: 2em;
-  font-weight: 400;
-  max-height: none;
-}
-
 body {
-  background-image: url(https://cdn.dribbble.com/users/296223/screenshots/3343827/dribble-shot-yellow.jpg?compress=1&resize=800x600);
+  text-align: center;
+  font-weight: 200;
+  font-style: normal;
+  border: 0px;
 }
 
 .navbar{
-  background-color: #CC7400;
+  background-color: #23B5D3;
 }
 
 .navbar .navbar-nav .nav-link {
-  background: #F4E04D;
+  background: #F58A07;
 }
 
-.card-secondary .card-header {
-  background: #F4E04D;
+.film {
+  padding: 75px 10%;
+  background-color: #F5E9E2;
+}
+
+.title {
+    color: #222222;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.description {
+    padding: 25px 0px 50px;
+    line-height: 7px;
+}
+.description-text-size {
+    font-size: 1em;
+}
+
+.nextFilm {
+    background-color: #F58A07;
 }

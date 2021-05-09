@@ -1,8 +1,8 @@
 .desktop-icon{
   width: 90px;
   text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 0.3rem;
+  margin-right: 2rem;
 }
 
 .desktop-icon a{
@@ -17,13 +17,14 @@
 }
 
 .image-sizing{
-  height:90px;
+  height:100px;
 }
 
 .desktop-icon-text{
   width: 50px;
   background: rgb(191, 233, 233);
   border-color: rgb(191, 233, 233);
+  text-align: center;
 }
 
 .section-icons{

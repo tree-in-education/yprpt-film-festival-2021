@@ -5,3 +5,15 @@ body{
 .copyright{
   color: #888888;
 }
+
+.nextFilm {
+    padding: 100px;
+}
+
+.nextFilm a {
+  width: 20rem;
+  height: 5rem;
+  font-size: 2em;
+  font-weight: 400;
+  max-height: none;
+}
