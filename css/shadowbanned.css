@@ -1,0 +1,25 @@
+.navbar{
+  background-color: #2a6f97;
+}
+.navbar .navbar-nav .nav-link {
+  background: #e7ecef;
+}
+.nextFilm {
+    background-color: #FFCAB1;
+}
+
+.film-details {
+    background: #2a6f97;
+}
+.specs li{
+  color: #90e0ef;
+}
+.student img{
+  border: 8px solid #90e0ef;
+}
+.links > p, .quotes > p, .crew > p, .fullcredits > p {
+  color: #FFCAB1;
+}
+.film {
+  background-color: #2a6f97;
+}

@@ -6,11 +6,11 @@ body {
 }
 
 .navbar{
-  background-color: #23B5D3;
+  background-color: #eae6e5;
 }
 
 .navbar .navbar-nav .nav-link {
-  background: #F58A07;
+  background: #F6EAC2;
 }
 
 .film {
@@ -33,5 +33,5 @@ body {
 }
 
 .nextFilm {
-    background-color: #F58A07;
+    background-color: #F6EAC2;
 }

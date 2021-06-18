@@ -8,18 +8,6 @@ body {
   border: 0px;
 }
 
-.navbar{
-  background-color: lightcoral;
-}
-
-.navbar .navbar-nav .nav-link {
-  background: lavender;
-}
-
-.nextFilm {
-    background-color: #E1CCEA;
-}
-
 .bigTitle {
   font-size: 3.5em;
 }
@@ -38,8 +26,8 @@ body {
     line-height: 7px;
 }
 
-.film-details {
-    background: lightcoral;
+.org-name{
+  font-size: 1.3em;
 }
 
 .logline {
@@ -64,8 +52,11 @@ body {
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
-    color: #F5B7B1;
     padding: 0px 10px;
+}
+
+.specs {
+  padding: 0px 0px 75px;
 }
 
 .warning {
@@ -77,17 +68,17 @@ body {
 
 .students {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
 
 .student {
     margin: 0px 25px;
-    width: 33%;
+    width: 28%;
 }
 
 .student img {
-    border: 8px solid #F5B7B1;
     width:  70%;
     height: 50%;
     object-fit: cover;
@@ -122,13 +113,11 @@ body {
 .links > p, .quotes > p, .crew > p, .fullcredits > p {
     font-size: 1.5em;
     text-transform: uppercase;
-    color: #D7BDE2;
     padding: 0px 0px 20px;
 }
 
 .film {
   padding: 75px 10%;
-  background-color: lightcoral;
   color: white;
 }
 

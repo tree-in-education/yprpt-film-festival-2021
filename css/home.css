@@ -1,8 +1,10 @@
+body{
+  background-color:#008081;
+}
+
 .desktop-icon{
-  width: 90px;
+  width: 200px;
   text-align: center;
-  margin-left: 0.3rem;
-  margin-right: 2rem;
 }
 
 .desktop-icon a{
@@ -17,7 +19,7 @@
 }
 
 .image-sizing{
-  height:100px;
+  height:180px;
 }
 
 .desktop-icon-text{
