@@ -46,6 +46,11 @@ const Draggable = function (element) {
     this.element.addEventListener("mousedown", this.onMouseDown.bind(this));
     this.element.addEventListener("mouseup", this.onMouseUp.bind(this));
     document.addEventListener("mousemove", this.onMouseMove.bind(this));
+
+    // needed for firefox:
+    this.element.addEventListener("dragstart", function (ev) {
+        ev.preventDefault();
+    });
 };
 
 

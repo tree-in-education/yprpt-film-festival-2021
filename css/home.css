@@ -1,11 +1,9 @@
 
-/* main {
-    background: url(https://tree.northwestern.edu/assets/images/film-festival-2021/image1.png) no-repeat center;
-    background-size: contain;
-    background-color:#008081;
-} */
-body {
+* {
+    box-sizing: border-box;
+}
 
+body {
     background-color:#008081;
 }
 
@@ -14,25 +12,22 @@ main {
     background-size: contain;
 }
 
-/* .logo-banner{
-}
-.logo-banner img{
-  width:400px;
-  display:
-} */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
 .desktop-icon, .desktop-icon * {
     user-select: none;
+    -moz-user-select: none;
 }
-.desktop-icon{
+
+.desktop-icon {
   width: 200px;
   text-align: center;
-  user-select: none; 
+  padding: 5px;
 }
 
 .desktop-icon a{
@@ -40,9 +35,8 @@ main {
   color: black;
 }
 
-
 .image-sizing{
-  height:180px;
+    height:180px;
 }
 
 .desktop-icon-text{
@@ -52,9 +46,22 @@ main {
   text-align: center;
 }
 
-.section-icons{
+.section-icons {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .desktop-icon {
+        width: 120px;
+        text-align: center;
+        user-select: none; 
+        padding: 10px;
+    }
+    .image-sizing{
+        height: 90px;
+    }
 }
