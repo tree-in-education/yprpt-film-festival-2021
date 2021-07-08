@@ -80,8 +80,16 @@ const DraggableFactory = function (element) {
         this.draggables.forEach(db => {
             db.isMouseDown = false;
         });
-    }
+    };
+
+    this.onEnter = function (ev) {
+        console.log(ev);
+    };
+
     document.addEventListener("mouseup", this.release.bind(this));
+    // document.addEventListener("mouseup", function () {
+    //     console.log('hi');
+    // }​);
 }
 
 new DraggableFactory();
