@@ -35,7 +35,7 @@ const Draggable = function (element) {
         var deltaX = ev.clientX - this.mouseX;
         var deltaY = ev.clientY - this.mouseY;
         this.element.style.left = this.elementX + deltaX + "px";
-        this.element.style.top = this.elementY + deltaY + "px";
+        this.element.style.top = this.elementY + deltaY + window.scrollY + "px";
     };
 
     // this.navigate = function (ev) {
