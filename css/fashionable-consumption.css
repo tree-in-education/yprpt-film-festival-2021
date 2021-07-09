@@ -23,3 +23,12 @@
 .film {
   background-color: #ffbf69;
 }
+
+.bg {
+    background-image: url(../img/fashionable/bg1.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

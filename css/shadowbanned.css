@@ -23,3 +23,15 @@
 .film {
   background-color: #2a6f97;
 }
+
+.bg {
+    background-image: url(../img/shadowbanned/bts1.gif);
+    height: 120vh;
+    /* background-size: contain; */
+    background-size: auto 95vh;
+    background-position-x: center;
+    background-position-y: 5vh;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-color: #2a6f97;
+}
